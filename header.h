@@ -2,7 +2,7 @@
 #define HEADER_H_INCLUDED
 
 struct Teatro {
-    unsigned int cont;
+    unsigned int cont = 0;
     unsigned int escolha;
     bool *teatro;
 
